@@ -1,0 +1,45 @@
+# Binaries and build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.o
+*.a
+/bin/
+/build/
+/dist/
+
+# Vendor directory (optional — ignore if you're not vendoring dependencies)
+vendor/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Go modules (keep go.mod but go.sum is optional)
+go.sum
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test cache
+*.test
+
+# Coverage output
+coverage.out
+
+# Environment variable files (never commit secrets)
+.env
+.env.
